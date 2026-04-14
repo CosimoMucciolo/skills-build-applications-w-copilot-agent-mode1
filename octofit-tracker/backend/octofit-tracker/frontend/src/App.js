@@ -1,5 +1,6 @@
 import './App.css';
-import octofitLogo from '../../../docs/octofitapp-small.png';
+// Logo path for public directory
+const octofitLogo = process.env.PUBLIC_URL + '/octofitapp-small.png';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Activities from './components/Activities';
 import Leaderboard from './components/Leaderboard';
