@@ -1,6 +1,7 @@
+
 .App {
   text-align: center;
-  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  background: #1abc1a !important;
   min-height: 100vh;
 }
 
@@ -22,9 +23,14 @@
   color: #ffd700 !important;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   color: #6610f2;
   font-weight: 700;
+}
+
+h1.display-4 {
+  font-style: italic;
 }
 
 .card {
