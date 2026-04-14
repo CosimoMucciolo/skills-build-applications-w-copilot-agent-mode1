@@ -31,6 +31,7 @@ function App() {
           </div>
         </div>
       </nav>
+      <div className="test-banner">prova ora la nuova app</div>
       <div className="container">
         <Routes>
           <Route path="/activities" element={<Activities />} />
